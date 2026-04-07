@@ -81,12 +81,12 @@ export default function Countdown() {
               </div>
 
               {/* Timer units */}
-              <div className="flex items-center gap-3 md:gap-5">
+              <div className="flex items-center gap-2 md:gap-5">
                 {units.map((unit, i) => (
-                  <div key={unit.label} className="flex items-center gap-3 md:gap-5">
+                  <div key={unit.label} className="flex items-center gap-2 md:gap-5">
                     <div className="text-center">
                       <div
-                        className="w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center text-3xl md:text-4xl font-black text-white"
+                        className="w-14 h-14 md:w-20 md:h-20 rounded-2xl flex items-center justify-center text-2xl md:text-4xl font-black text-white"
                         style={{
                           background: "linear-gradient(135deg, rgba(108,99,255,0.2), rgba(67,230,252,0.1))",
                           border: "1px solid rgba(108,99,255,0.4)",
