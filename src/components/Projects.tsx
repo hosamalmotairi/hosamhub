@@ -13,7 +13,7 @@ const projects = [
     screenshot: "/screenshots/bus214.jpg",
     color: "#6C63FF",
     gradient: "from-[#6C63FF] to-[#8B5CF6]",
-    tags: ["ميد تيرم", "فصول 1–3", "ثنائي اللغة"],
+    tags: ["ميد تيرم", "فصول 1–3", "فلاش كارد"],
   },
   {
     code: "FIN200",
