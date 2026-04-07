@@ -18,7 +18,7 @@ const projects = [
   {
     code: "FIN200",
     title: "FIN 200 Study Hub",
-    subtitle: "المالية والتمويل — ميد تيرم",
+    subtitle: "مبادئ مالية — ميد تيرم",
     description:
       "فصول 2–5: القيمة الزمنية للمال، الأقساط، السندات، والأسهم. حاسبة مالية وأسئلة تدريبية وبطاقات تعليمية.",
     link: "https://hosamalmotairi.github.io/fin200-notes/fin200_edition.html",
@@ -30,7 +30,7 @@ const projects = [
   {
     code: "MKT201",
     title: "MKT 201 Study Hub",
-    subtitle: "التسويق — ميد تيرم",
+    subtitle: "مبادئ التسويق — ميد تيرم",
     description:
       "فصول 1–5: البيئة التسويقية، سلوك المستهلك، واستراتيجيات التسويق. تشمل 561+ سؤال وأسئلة اختبارات سابقة.",
     link: "https://mkt201.vercel.app/",
@@ -74,7 +74,7 @@ export default function Projects() {
                   src={project.screenshot}
                   alt={project.title}
                   fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
                 {/* Overlay gradient */}
