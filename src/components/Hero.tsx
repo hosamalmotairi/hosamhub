@@ -13,8 +13,10 @@ export default function Hero() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+    const isMobile = window.innerWidth < 768;
+    const particleCount = isMobile ? 25 : 60;
     const particles: { x: number; y: number; vx: number; vy: number; r: number }[] = [];
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
