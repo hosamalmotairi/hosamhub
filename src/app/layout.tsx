@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "حسام المطيري | مشاريع أكاديمية",
+  title: "حسام المطيري | مشاريعي الأكاديمية",
   description: "مشاريع حسام المطيري الأكاديمية — BUS214, FIN200, MKT201",
 };
 
