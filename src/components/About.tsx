@@ -10,7 +10,7 @@ const stats = [
 const skills = [
   { icon: "⌨️", label: "برمجة", color: "#6C63FF" },
   { icon: "💻", label: "تطوير الويب", color: "#43E6FC" },
-  { icon: "📊", label: "مبادئ مالية", color: "#FF6584" },
+  { icon: "📊", label: "المالية والأعمال", color: "#FF6584" },
   { icon: "🎨", label: "تصميم واجهات", color: "#FF9A3C" },
   { icon: "🤖", label: "ذكاء اصطناعي", color: "#6C63FF" },
   { icon: "🚀", label: "ريادة الأعمال", color: "#43E6FC" },
